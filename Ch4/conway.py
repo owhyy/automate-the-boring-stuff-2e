@@ -29,6 +29,7 @@ while True:
     for x in range(WIDTH):
         for y in range(HEIGHT):
             left_coord = (x - 1) % WIDTH
+            print(left_coord)
             right_coord = (x + 1) % WIDTH
             above_coord = (y - 1) % HEIGHT
             below_coord = (y + 1) % HEIGHT
