@@ -1,10 +1,9 @@
-
-print('Please enter a value for spam:')
-spam=int(input())
+print("Please enter a value for spam:")
+spam = int(input())
 
 if spam == 1:
-    print('Hello')
+    print("Hello")
 elif spam == 2:
-    print('Howdy')
+    print("Howdy")
 else:
-    print('Greetings!')
+    print("Greetings!")
